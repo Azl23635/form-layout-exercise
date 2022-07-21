@@ -1,0 +1,21 @@
+label{
+    margin: 2px 0vw;
+}
+
+.whole-body{
+    width: 70vw;
+    height: 100vh;
+}
+
+.flex-text{
+    margin: 15px 20vw;
+}
+
+.flex-drop-rad{
+    margin: 15px 20vw;
+}
+
+.flex-check-input{
+    margin: 15px 20vw;
+    
+}
