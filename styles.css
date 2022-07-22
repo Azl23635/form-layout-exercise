@@ -1,21 +1,50 @@
-label{
-    margin: 2px 0vw;
+label {
+  margin: 2px 0vw;
 }
 
-.whole-body{
-    width: 70vw;
-    height: 100vh;
+.whole-body {
+  width: 70vw;
+  height: 100vh;
+  margin-left: clamp(20px, 40px, 60px);
+  font-family: sans-serif;
 }
 
-.flex-text{
-    margin: 15px 20vw;
+.flex-check-input .flex-drop-rad .flex-text {
+  /* width: 2rem; */
 }
 
-.flex-drop-rad{
-    margin: 15px 20vw;
+.flex-text input {
+  width: 20vw;
 }
 
-.flex-check-input{
-    margin: 15px 20vw;
-    
+#flex-drop-rad {
+    background-color: bisque;
+  /* & select {
+        width: 20vw;
+        margin-bottom: 3vh;
+  } */
+}
+.flex-drop-rad {
+  margin-top: 3vh;
+}
+
+.flex-check-input {
+  /* margin: 15px 20vw; */
+}
+
+.container {
+  /* width: clamp(30vw, 70vw, 80vw); */
+}
+.container input,
+select,
+textarea {
+  margin-bottom: 13px;
+  font-size: 1em;
+}
+
+.container label {
+  font-size: 1em;
+  font-family: Montserrat-light, sans-serif;
+  display: inline-block;
+  margin-bottom: 10px;
 }
