@@ -1,44 +1,52 @@
-label {
-  margin: 2px 0vw;
+body {
+  width: 100vw;
+  height: auto;
+  margin: auto;
+  background-color: bisque;
 }
 
-.whole-body {
-  width: 70vw;
-  height: 100vh;
-  margin-left: clamp(20px, 40px, 60px);
-  font-family: sans-serif;
+.container-body {
+  background-color: rgb(248, 231, 211);
+  width: 50vw;
+  margin: auto;
+  padding: 3vw 3vw;
+  max-width: 32em;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.container-body button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 40.8vw;
+  height: 2rem;
+  max-width: 25.5rem;
+  font-size: 1.2em;
+  font-family: Helvetica, sans-serif;
 }
 
-.flex-check-input .flex-drop-rad .flex-text {
-  /* width: 2rem; */
+.headings-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-
-.flex-text input {
-  width: 20vw;
+.headings-div #title {
+  margin-bottom: 0.1em;
 }
-
-#flex-drop-rad {
-    background-color: bisque;
-  /* & select {
-        width: 20vw;
-        margin-bottom: 3vh;
-  } */
-}
-.flex-drop-rad {
-  margin-top: 3vh;
-}
-
-.flex-check-input {
-  /* margin: 15px 20vw; */
+.headings-div #description {
+  margin-bottom: 1.5em;
 }
 
 .container {
-  /* width: clamp(30vw, 70vw, 80vw); */
+  width: 42vw;
+  display: inline-block;
 }
+
 .container input,
 select,
 textarea {
   margin-bottom: 13px;
+  max-width: 25rem;
   font-size: 1em;
 }
 
@@ -48,3 +56,30 @@ textarea {
   display: inline-block;
   margin-bottom: 10px;
 }
+
+.flex-text input {
+  width: 40vw;
+  height: 1.5em;
+}
+
+.flex-drop-rad {
+  margin-top: 1em;
+}
+.flex-drop-rad select {
+  width: 40.8vw;
+  max-width: 25.5rem;
+  margin-bottom: 1em;
+  height: 1.9rem;
+}
+.flex-drop-rad .flex-drop-rad-labels {
+  margin-top: 1.3em;
+}
+
+.flex-check-text-area .asking-label {
+  margin-top: 2vh;
+}
+.flex-check-text-area #feedback {
+  width: clamp(40vw, 40vw, 25rem);
+}
+
+/*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */
